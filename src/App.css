@@ -1,11 +1,5 @@
 body {
-  font-family: Roboto;
-  font-weight: 500;
+  font-family: TitilliumWeb-Regular;
   margin: 0;
   padding: 0;
-}
-
-main {
-  position: absolute;
-  top: 100px;
 }
