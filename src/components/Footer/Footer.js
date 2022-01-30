@@ -2,5 +2,36 @@ import React from 'react';
 import './Footer.css';
 
 export default function Footer() {
-  return <div className='footer-container'></div>;
+  return <div className='footer-container'>
+    <div className='footer-wrapper'>
+      <div>
+        <h3>Some text</h3>
+        <div>some text</div>
+        <div>some text</div>
+        <div>some text</div>
+        <div>some text</div>
+      </div>
+      <div>
+        <h3>Some text</h3>
+        <div>some text</div>
+        <div>some text</div>
+        <div>some text</div>
+        <div>some text</div>
+      </div>
+      <div>
+        <h3>Some text</h3>
+        <div>some text</div>
+        <div>some text</div>
+        <div>some text</div>
+        <div>some text</div>
+      </div>
+      <div>
+        <h3>Some text</h3>
+        <div>some text</div>
+        <div>some text</div>
+        <div>some text</div>
+        <div>some text</div>
+      </div>
+    </div>
+  </div>;
 }

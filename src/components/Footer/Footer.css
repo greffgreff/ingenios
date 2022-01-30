@@ -1,6 +1,15 @@
 .footer-container {
     width: 100%;
-    height: 300px;
+    height: auto;
     margin-top: 50px;
     background: linear-gradient(90deg, hsla(344, 100%, 56%, 1) 0%, hsla(17, 100%, 63%, 1) 100%);
+}
+
+.footer-wrapper {
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-auto-flow: column;
+    color: white;
+    padding: 30px 0 100px 0;
 }
