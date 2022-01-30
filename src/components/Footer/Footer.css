@@ -1,0 +1,6 @@
+.footer-container {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    background: linear-gradient(90deg, hsla(344, 100%, 56%, 1) 0%, hsla(17, 100%, 63%, 1) 100%);
+}

@@ -3,7 +3,7 @@ import './SectionHeader.css'
 
 export default function SectionHeader({ content }) {
   return <div className='section-header-container'>
-      <h1>{content.title}</h1>
-      <p className='subtitle'>{content.subtitle}</p>
+      <h1 className='section-title'>{content.title}</h1>
+      <p className='section-ubtitle'>{content.subtitle}</p>
   </div>;
 }
