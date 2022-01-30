@@ -1,9 +1,3 @@
-.team-container {
-    height: auto;
-    margin: auto;
-    padding: 40px 0;
-}
-
 .team-memebers {
     display: grid;
     grid-auto-flow: column;

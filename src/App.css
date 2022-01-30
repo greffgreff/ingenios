@@ -6,6 +6,13 @@ body {
 }
 
 main {
+  transform: translateY(-30px);
   width: 60%;
   margin: auto;
+}
+
+.section-container {
+  height: auto;
+  margin: auto;
+  margin-bottom: 50px;
 }

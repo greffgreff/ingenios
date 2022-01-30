@@ -14,6 +14,7 @@ export default function App() {
     <main>
       <OurService />
       <OurTeam />
+      <SectionHeader content={ { title:"Starting With Us", subtitle:"Here is what you should know" } } />
       <SectionHeader content={ { title:"Contact Us", subtitle:"We are available 24/7" } } />
     </main>
     <Footer />
