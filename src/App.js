@@ -5,6 +5,7 @@ import Banner from './components/Banner/Banner';
 import OurService from './components/OurService/OurService';
 import OurTeam from './components/OurTeam/OurTeam';
 import Footer from './components/Footer/Footer';
+import SectionHeader from './components/SectionHeader/SectionHeader';
 
 export default function App() {
   return <>
@@ -13,6 +14,7 @@ export default function App() {
     <main>
       <OurService />
       <OurTeam />
+      <SectionHeader content={ { title:"Contact Us", subtitle:"We are available 24/7" } } />
     </main>
     <Footer />
   </>;
