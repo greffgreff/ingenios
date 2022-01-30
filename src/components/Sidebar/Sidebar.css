@@ -1,0 +1,11 @@
+.sidebar-container {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 270px;
+    height: 100px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 10px 15px -5px rgb(230, 230, 230);
+    /* border-left: solid 10px hsla(344, 100%, 56%, 1); */
+}

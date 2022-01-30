@@ -9,3 +9,13 @@
 .section-subtitle {
     font-size: 17px;
 }
+
+.section-title {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.section-subtitle {
+    text-align: center;
+}

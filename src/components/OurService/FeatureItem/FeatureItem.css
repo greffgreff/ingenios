@@ -1,0 +1,21 @@
+.feature-item-container {
+    display: grid;
+    row-gap: 40px;
+    height: auto;
+    padding: 40px;
+    border-radius: 7px;
+    box-shadow: 0 10px 15px -5px rgb(230, 230, 230);
+    text-align: center;
+}
+
+.feature-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.feature-icon {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+}
