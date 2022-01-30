@@ -1,0 +1,21 @@
+img {
+    width: 47px;
+    height: 47px;
+    margin: auto;
+    /* display: none; */
+}
+
+p {
+    margin: auto;
+    transform: translateY(-2px);
+}
+
+.logo {
+    display: grid;
+    grid-auto-flow: column;
+    width: 190px;
+    height: 70px;
+    font-family: TitilliumWeb-SemiBold;
+    font-size: 26px;
+    font-weight: 500;
+}
