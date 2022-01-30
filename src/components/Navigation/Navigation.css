@@ -4,21 +4,30 @@
     height: 100px;
 }
 
-.wrapper {
+.navigation-wrapper {
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 3fr 7fr;
-    width: 50%;
+    width: 60%;
     height: 100%;
     margin: 0 auto;
 }
 
-.wrapper div{ 
+.navigation-wrapper div{ 
     margin: auto 0;
 }
 
 .links {
     display: grid;
     grid-auto-flow: column;
+    text-align: end;
 }
 
+.link-item {
+    transition: 0.2s;
+}
+
+.link-item:hover {
+    opacity: 0.7;
+    transform: scale(1.05);
+}

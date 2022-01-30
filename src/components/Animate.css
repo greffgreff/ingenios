@@ -1,0 +1,27 @@
+.animate1 {
+    opacity: 0;
+    animation-name: slideTop;
+    animation-fill-mode: forwards;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-out;
+}
+
+.animate2 {
+    opacity: 0;
+    animation-name: slideTop;
+    animation-fill-mode: forwards;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.2s;
+}
+
+@keyframes slideTop {
+    0% { 
+        transform: translateY(20px); 
+        opacity: 0;
+    }
+    100% {
+         transform: translateY(0px);
+         opacity: 1;
+    }
+}

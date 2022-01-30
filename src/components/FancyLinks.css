@@ -1,0 +1,19 @@
+.link-item {
+    width: fit-content;
+    background-position: -0% 0;
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #FF5A4A 50%);
+    background-size: 200% auto;
+    transition: background-position 0.2s ease-out;
+    line-height: 30%;
+    text-decoration: none;
+}
+/* 
+.link-item:hover {
+    background-position: -99.99% 0;
+} */
+
+.link-item::before {
+    background-color: linear-gradient(90deg, hsla(344, 100%, 56%, 1) 0%, hsla(17, 100%, 63%, 1) 100%);
+    width: 100%;
+    height: 100%;
+}

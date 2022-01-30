@@ -1,0 +1,15 @@
+.team-container {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 40px;
+}
+
+.team-memebers {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 20px;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+}
