@@ -6,13 +6,12 @@ body {
 }
 
 main {
-  transform: translateY(-30px);
   width: 60%;
-  margin: auto;
+  margin: 100px auto;
 }
 
 .section-container {
   height: auto;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
